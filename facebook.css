@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+nav ul{
+	display: flex;
+}
+nav{
+
+}
+nav li:hover{
+background-color:#DDDDDD;
+cursor: pointer; 
+}
+#nav1{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+width: 25%;
+}
+#nav1 li{
+	margin: 5px;
+}
+#search{
+	font-size: 1rem;
+}
+#btn{
+border:1px solid grey;
+display: flex;
+align-items: center;
+border-radius:20rem;
+border: 1px solid grey;
+border-radius:20px;
+box-shadow: 2px 2px 3px grey;
+background-color:#EEEDEB;
+}
+
+input[type="search"]{
+	width: 15rem;
+	height: 2rem;
+	padding: 7px;
+    border:0.5px solid #EEEDEB;
+	background-color:#EEEDEB;
+}
+#nav2{
+display: flex;
+justify-content: center;
+justify-content:space-around;
+align-items: center;
+width: 55%;
+position: sticky;
+}
+#nav2 li{
+	margin-right: 10px;
+	margin-left: 3px;
+	margin-top: 7px;
+}
+#nav3{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+width: 20%;
+}
+#nav3 li{
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: 7px;
+	background-color:#EEEDEB;
+	width: 5rem;
+	height: 2.3rem;
+	border-radius: 30rem;
+	text-align: center;
+}
+#container{
+	display: flex;
+
+	margin: 5px;
+	background-color:#F6F5F5;
+}
+#box1{
+	height: auto;
+	width: 20%;
+	margin: 10px;
+}
+#box1 li{
+	padding: 15px;
+	font-size:1rem;
+	font-family: sans-serif;
+}
+#box1 li i{
+	padding-right: 10px;
+}
+#box1 li:hover{
+	background-color:#DDDDDD;
+	cursor: pointer; 
+}
+#container2{
+}
+
+#box2{
+	height:auto;
+	width: 55%;
+	margin: 5px;
+	display: flex;
+}
+.video-box{
+	width:10rem;
+	height: 15rem;
+	margin: 2px;
+}
+
+#post{
+	border-radius: 10px;
+	padding-left:7rem;
+	background-color:#EAE4DD;
+}
+
+.photo{
+	border-radius: 5px;
+	margin: 10px;
+	background-color:#EEEDEB;
+	box-shadow: 2px 2px 2px grey; 
+	width:470px;
+}
+.user{
+	padding-left:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.caption{
+	padding-left:15px;
+	font-weight: 5px;
+	font-family: sans-serif;
+	margin: 5px;
+}
+.like{
+	font-size: 1rem;
+    margin-left: 10px;
+}
+.rates{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+#box3{
+	height: auto;
+	width: 25%;
+	margin: 2px;
+}
+#box3 li{
+	padding: 15px;
+	font-size:1rem;
+	font-family: sans-serif;
+}
+#box3 li i{
+	padding-right: 10px;
+}
+#box3 li:hover{
+	background-color:#DDDDDD;
+	cursor: pointer; 
+}
